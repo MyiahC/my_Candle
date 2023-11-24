@@ -245,7 +245,7 @@ frmMain::frmMain(QWidget *parent) :
     }
 
     // Setting up spindle slider box
-    ui->slbSpindle->setTitle(tr("Speed:"));
+    ui->slbSpindle->setTitle(tr("Speed_myiah_haha:"));
     ui->slbSpindle->setCheckable(false);
     ui->slbSpindle->setChecked(true);
     connect(ui->slbSpindle, &SliderBox::valueUserChanged, [=] {m_updateSpindleSpeed = true;});
